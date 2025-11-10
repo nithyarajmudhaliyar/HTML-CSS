@@ -1,0 +1,62 @@
+/* Center the card on the page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Card container */
+.blog-post-card {
+  background-color: white;
+  width: 320px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Image styling */
+.post-img {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Content inside the card */
+.post-content {
+  padding: 20px;
+}
+
+/* Title */
+.post-title {
+  color: #222;
+  margin: 10px 0;
+}
+
+/* Description text */
+.post-excerpt {
+  color: #555;
+  margin: 10px 0 20px;
+  font-size: 14px;
+}
+
+/* Read More button */
+.read-more {
+  color: white;
+  background-color: #333;
+  text-decoration: none;
+  margin: 10px;
+  padding: 1px;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.read-more:hover {
+  background-color: #555;
+}
